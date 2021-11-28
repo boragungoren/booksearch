@@ -1,0 +1,50 @@
+.ui.brown.button, .ui.brown.buttons .button {
+  background-color: #273b7a;
+}
+
+.ui.brown.button:hover, .ui.brown.buttons .button:hover {
+  background-color: #273b7a;
+}
+
+.ui.brown.card, .ui.brown.cards > .card, .ui.cards > .brown.card {
+  box-shadow: 0 0 0 1px #d4d4d5,0 2px 0 0 #273b7a,0 1px 3px 0 #d4d4d5;
+}
+
+.ui.brown.card:hover, .ui.brown.cards > .card:hover, .ui.cards > .brown.card:hover {
+  box-shadow: 0 0 0 1px #d4d4d5,0 2px 0 0 #273b7a,0 1px 3px 0 #bcbdbd;
+}
+
+.ui.menu .header.item {
+  padding-left: 0;
+}
+
+.menu .ui.form .fields {
+  margin: 0;
+}
+
+.card {
+  height: 32rem;
+  overflow: hidden;
+}
+
+.card .header {
+  height: 3.2rem;
+  overflow: hidden;
+}
+
+.ui.cards > .card > .image {
+  height: 15rem;
+  background-image: radial-gradient( circle 592px at 48.2% 50%,  rgba(255,255,249,0.6) 0%, rgba(160,199,254,1) 74.6% );
+  background-image: radial-gradient(circle, #c9e314, #c0d912, #b8d010, #afc60f, #a7bd0d);
+  background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+}
+
+.card img {
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.description {
+  height: 6rem;
+  overflow: hidden;
+}
